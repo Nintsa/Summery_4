@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rvItem"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/etHint"
+            android:id="@+id/etHint"
+            android:inputType="text"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_person"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="400dp"
+        android:layout_height="2dp"
+        android:background="@color/silver"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
